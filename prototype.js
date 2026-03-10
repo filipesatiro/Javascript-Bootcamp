@@ -1,14 +1,17 @@
-function Cadastro(nome, idade){
-    this.nome = this.nome;
-    this.idade = this.idade;
-    this.andar = function(){
-        return 'andou';
+function Automovel(nome, cor, ano){
+    this.nome = nome;
+    this.cor = cor;
+    this.ano = ano;
+    //this.portas = 5;
+    
+    this.velocidade = function(){
+        return '280km';
     }
 }
 
-Cadastro.prototype.teste = 'Testando'
-Cadastro.prototype.daroi = function(){
-    return this.nome + ' Está te comprimentando';
-}
-const filipe = new Cadastro('filipe', 50);
+// Automovel.prototype.portas = 4;
+
+
+const camaro = new Automovel('Camaro', 'Amarelo', 2024)
+const fusca = new Automovel('Fusca', 'Branco', 1973)
 
