@@ -1,5 +1,9 @@
 body {
     background-color: black;
     color: white;
-    font-size: 2em;
+    font-size: 1em;
+}
+ul {
+    padding-left: 90%;
+    margin-top: 85px;
 }
