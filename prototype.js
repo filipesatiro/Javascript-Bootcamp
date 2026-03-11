@@ -1,17 +1,8 @@
-function Automovel(nome, cor, ano){
-    this.nome = nome;
-    this.cor = cor;
-    this.ano = ano;
-    //this.portas = 5;
-    
-    this.velocidade = function(){
-        return '280km';
+const pessoa = {
+    nome: 'Filipe',
+    idade: 30,
+    profissao: ['Analista de Sistemas', 'Sistemas para internet','Tecnico de informatica'],
+    possuiFaculdade(){
+        return true;
     }
-}
-
-// Automovel.prototype.portas = 4;
-
-
-const camaro = new Automovel('Camaro', 'Amarelo', 2024)
-const fusca = new Automovel('Fusca', 'Branco', 1973)
-
+};
